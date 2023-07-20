@@ -43,26 +43,6 @@ a:hover::before {
     transform: translateY(2px) translateX(2px);
 }
 
-#btn-menu {
-    background-color: var(--tertiary-color);
-    /* border-radius: 50px; */
-    box-shadow: 6px 6px 0 var(--shadow);
-    color: #000;
-    display: inline-block;
-    height: 45px;
-    line-height: 45px;
-    padding: 0 20px;
-    transition: .1s ease-in-out;
-}
-#btn-menu:hover {
-    box-shadow: 1px 2px 0 black;
-    transform: translateY(2px) translateX(2px);
-}
-
-#btn-menu::before {
-    display: none;
-}
-
 .logo img {
     /* border-radius: 10px; */
     padding: 5px;
