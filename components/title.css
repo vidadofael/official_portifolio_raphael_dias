@@ -1,7 +1,7 @@
-.principal h1 {
+h1 {
     font-family: var(--font);
-    font-size: 45px;
-    font-weight: 600;
-    color: var(--primary-color);
-    text-shadow: 3px 3px 0 var(--shadow);
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--tertiary-color);
+    text-shadow: 5px 5px 0 #424242;
 }
