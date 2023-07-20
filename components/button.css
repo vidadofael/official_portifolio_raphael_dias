@@ -1,6 +1,5 @@
-#btn-menu {
+.button {
     background-color: var(--tertiary-color);
-    /* border-radius: 50px; */
     box-shadow: 6px 6px 0 var(--shadow);
     color: #000;
     display: inline-block;
@@ -8,12 +7,15 @@
     line-height: 45px;
     padding: 0 20px;
     transition: .1s ease-in-out;
+    font-size: 20px;
+    font-weight: 200;
+    text-decoration: none;
 }
-#btn-menu:hover {
+.button:hover {
     box-shadow: 1px 2px 0 black;
     transform: translateY(2px) translateX(2px);
 }
 
-#btn-menu::before {
+.button::before {
     display: none;
 }
