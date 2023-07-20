@@ -1,6 +1,6 @@
 .action {
     align-items: center;
-    color: var(--secondary-color);
+    color: #000;
     cursor: pointer;
     display: inline-flex;
     font-family: var(--font), Arial, Helvetica, sans-serif;

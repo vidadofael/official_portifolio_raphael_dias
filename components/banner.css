@@ -1,5 +1,5 @@
 .banner {
-    background-color: var(--primary-color);
+    background-color: #FFF;
     height: 365px;
     border-bottom: 10px solid #000;
     display: flex;
@@ -21,7 +21,8 @@
 
 .banner .navigation {
     display: flex;
-    justify-content: space-around; 
+    justify-content: left;
+    gap: 15px; 
 }
 
 .banner .img__banner {
