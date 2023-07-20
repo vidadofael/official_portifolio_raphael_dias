@@ -1,0 +1,27 @@
+.action {
+    align-items: center;
+    color: var(--secondary-color);
+    cursor: pointer;
+    display: inline-flex;
+    font-family: var(--font), Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+.action::before {
+    background-color: var(--tertiary-color);
+    /* border-radius: 50px; */
+    box-shadow: 3px 3px 0 black;
+    content: '';
+    display: inline-block;
+    height: 10px;
+    margin-right: 8px;
+    transition: .2s ease-in-out;
+    width: 10px;
+}
+.action:hover::before {
+    box-shadow: 1px 1px 0 black;
+    transform: translateY(2px) translateX(2px);
+}

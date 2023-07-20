@@ -1,0 +1,20 @@
+a#link-img-logo::before {
+    display: none;
+}
+
+a#link-img-logo {
+    margin-right: 0;
+}
+
+.logo img {
+    padding: 5px;
+    box-shadow: -5px 6px 0 var(--shadow);
+    margin-left: 30px;
+    transition: .1s ease-in-out;
+    width: 60px;
+}
+
+.logo img:hover {
+    box-shadow: -2px 1px 0 var(--shadow);
+    transform: translateY(2px) translateX(-2px);
+}

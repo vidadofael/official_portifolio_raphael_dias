@@ -1,5 +1,4 @@
-h1 {
-    font-family: var(--font);
+.title {
     font-size: 40px;
     font-weight: 700;
     color: var(--tertiary-color);

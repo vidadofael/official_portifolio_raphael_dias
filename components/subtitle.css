@@ -1,5 +1,4 @@
-h2 {
-    font-family: var(--font);
+.subtitle {
     font-size: 30px;
     color: #FFF;
     text-shadow: 3px 3px 0 #424242;
