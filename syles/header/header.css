@@ -29,13 +29,13 @@ a {
 
 a::before {
     background-color: var(--tertiary-color);
-    border-radius: 50px;
+    /* border-radius: 50px; */
     box-shadow: 3px 3px 0 black;
     content: '';
     display: inline-block;
     height: 10px;
     margin-right: 8px;
-    transition: .3s ease-in-out;
+    transition: .2s ease-in-out;
     width: 10px;
 }
 a:hover::before {
@@ -45,7 +45,7 @@ a:hover::before {
 
 #btn-menu {
     background-color: var(--tertiary-color);
-    border-radius: 50px;
+    /* border-radius: 50px; */
     box-shadow: 6px 6px 0 var(--shadow);
     color: #000;
     display: inline-block;
@@ -64,7 +64,8 @@ a:hover::before {
 }
 
 .logo img {
-    border-radius: 50px;
+    /* border-radius: 10px; */
+    padding: 5px;
     box-shadow: -6px 3px 0 var(--shadow);
     margin-left: 30px;
     transition: .1s ease-in-out;
