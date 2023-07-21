@@ -1,0 +1,20 @@
+.title{
+    font-family: var(--font);
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.skill-tec {
+    display: flex;
+}
+
+.skill-tec .icon {
+    margin-right: 25px;
+}
+
+.skill-tec .position {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
