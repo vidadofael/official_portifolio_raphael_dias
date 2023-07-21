@@ -5,4 +5,17 @@
     background-color: var(--tertiary-color);
     width: 150px;
     height: 150px;
+    box-shadow: 5px 5px 0 #ffffff;
+    transition: .3s ease-in-out;
+}
+
+.card-project:hover {
+    transform: translateY(-10px);
+}
+
+.wraper-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 350px;
 }
