@@ -7,10 +7,17 @@
 
 .skill-tec {
     display: flex;
+    align-items: center;
 }
 
 .skill-tec .icon {
     margin-right: 25px;
+    width: 67px;
+    
+}
+
+.skill-tec .title {
+    margin-bottom: 5px;
 }
 
 .skill-tec .position {

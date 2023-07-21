@@ -9,6 +9,6 @@
     color: var(--secondary-color);
     text-shadow: none;
     text-align: center;
-    font-size: 24px;
-
+    font-size: 28px;
+    padding-bottom: 50px;
 }
