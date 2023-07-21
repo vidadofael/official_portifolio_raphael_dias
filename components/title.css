@@ -4,3 +4,10 @@
     color: var(--tertiary-color);
     text-shadow: 5px 5px 0 #424242;
 }
+
+.title.title-second {
+    color: var(--secondary-color);
+    text-shadow: none;
+    text-align: center;
+
+}
