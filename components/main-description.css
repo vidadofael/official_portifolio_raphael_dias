@@ -1,0 +1,17 @@
+.main-description {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+    padding: 0 50px 25px 50px;
+    text-justify:distribute;
+}
+
+.section.-bgSecond.border-purple.border-purple {
+    border: 10px solid var(--tertiary-color);
+    background-color: var(--primary-color);    
+}
+
+.border-purple p {
+    color: var(--secondary-color);
+}
